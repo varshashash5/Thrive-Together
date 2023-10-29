@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC0753B02ADB6624001246C5 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0753AF2ADB6624001246C5 /* TimerViewController.swift */; };
+		AC41D15A2ABC0880009AB632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC41D1592ABC0880009AB632 /* AppDelegate.swift */; };
+		AC41D15C2ABC0880009AB632 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC41D15B2ABC0880009AB632 /* SceneDelegate.swift */; };
+		AC41D15E2ABC0880009AB632 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC41D15D2ABC0880009AB632 /* ViewController.swift */; };
+		AC41D1612ABC0880009AB632 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC41D15F2ABC0880009AB632 /* Main.storyboard */; };
+		AC41D1632ABC0883009AB632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC41D1622ABC0883009AB632 /* Assets.xcassets */; };
+		AC41D1662ABC0883009AB632 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC41D1642ABC0883009AB632 /* LaunchScreen.storyboard */; };
+		AC41D16E2ACA920F009AB632 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC41D16D2ACA920F009AB632 /* LoginViewController.swift */; };
+		AC41D1702ACA942B009AB632 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC41D16F2ACA942B009AB632 /* CreateAccountViewController.swift */; };
+		AC41D1722ACA9B90009AB632 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC41D1712ACA9B8F009AB632 /* GoogleService-Info.plist */; };
+		AC41D1752ACA9C6D009AB632 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AC41D1742ACA9C6D009AB632 /* FirebaseAuth */; };
+		AC7138062ADAFBCD002A6D29 /* quoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7138052ADAFBCC002A6D29 /* quoteViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC0753AF2ADB6624001246C5 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		AC41D1562ABC0880009AB632 /* Thrive Together.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thrive Together.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC41D1592ABC0880009AB632 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC41D15B2ABC0880009AB632 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC41D15D2ABC0880009AB632 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC41D1602ABC0880009AB632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC41D1622ABC0883009AB632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC41D1652ABC0883009AB632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC41D1672ABC0883009AB632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC41D16D2ACA920F009AB632 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AC41D16F2ACA942B009AB632 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		AC41D1712ACA9B8F009AB632 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AC7138052ADAFBCC002A6D29 /* quoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quoteViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC41D1532ABC0880009AB632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC41D1752ACA9C6D009AB632 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC41D14D2ABC0880009AB632 = {
+			isa = PBXGroup;
+			children = (
+				AC41D1582ABC0880009AB632 /* Thrive Together */,
+				AC41D1572ABC0880009AB632 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC41D1572ABC0880009AB632 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC41D1562ABC0880009AB632 /* Thrive Together.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC41D1582ABC0880009AB632 /* Thrive Together */ = {
+			isa = PBXGroup;
+			children = (
+				AC41D1592ABC0880009AB632 /* AppDelegate.swift */,
+				AC41D15B2ABC0880009AB632 /* SceneDelegate.swift */,
+				AC41D15D2ABC0880009AB632 /* ViewController.swift */,
+				AC41D15F2ABC0880009AB632 /* Main.storyboard */,
+				AC0753AF2ADB6624001246C5 /* TimerViewController.swift */,
+				AC7138052ADAFBCC002A6D29 /* quoteViewController.swift */,
+				AC41D16F2ACA942B009AB632 /* CreateAccountViewController.swift */,
+				AC41D16D2ACA920F009AB632 /* LoginViewController.swift */,
+				AC41D1622ABC0883009AB632 /* Assets.xcassets */,
+				AC41D1642ABC0883009AB632 /* LaunchScreen.storyboard */,
+				AC41D1672ABC0883009AB632 /* Info.plist */,
+				AC41D1712ACA9B8F009AB632 /* GoogleService-Info.plist */,
+			);
+			path = "Thrive Together";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC41D1552ABC0880009AB632 /* Thrive Together */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC41D16A2ABC0883009AB632 /* Build configuration list for PBXNativeTarget "Thrive Together" */;
+			buildPhases = (
+				AC41D1522ABC0880009AB632 /* Sources */,
+				AC41D1532ABC0880009AB632 /* Frameworks */,
+				AC41D1542ABC0880009AB632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Thrive Together";
+			packageProductDependencies = (
+				AC41D1742ACA9C6D009AB632 /* FirebaseAuth */,
+			);
+			productName = "Thrive Together";
+			productReference = AC41D1562ABC0880009AB632 /* Thrive Together.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC41D14E2ABC0880009AB632 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AC41D1552ABC0880009AB632 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AC41D1512ABC0880009AB632 /* Build configuration list for PBXProject "Thrive Together" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC41D14D2ABC0880009AB632;
+			packageReferences = (
+				AC41D1732ACA9C6D009AB632 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = AC41D1572ABC0880009AB632 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC41D1552ABC0880009AB632 /* Thrive Together */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC41D1542ABC0880009AB632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC41D1662ABC0883009AB632 /* LaunchScreen.storyboard in Resources */,
+				AC41D1632ABC0883009AB632 /* Assets.xcassets in Resources */,
+				AC41D1612ABC0880009AB632 /* Main.storyboard in Resources */,
+				AC41D1722ACA9B90009AB632 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC41D1522ABC0880009AB632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC41D1702ACA942B009AB632 /* CreateAccountViewController.swift in Sources */,
+				AC41D16E2ACA920F009AB632 /* LoginViewController.swift in Sources */,
+				AC41D15E2ABC0880009AB632 /* ViewController.swift in Sources */,
+				AC0753B02ADB6624001246C5 /* TimerViewController.swift in Sources */,
+				AC41D15A2ABC0880009AB632 /* AppDelegate.swift in Sources */,
+				AC41D15C2ABC0880009AB632 /* SceneDelegate.swift in Sources */,
+				AC7138062ADAFBCD002A6D29 /* quoteViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC41D15F2ABC0880009AB632 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC41D1602ABC0880009AB632 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC41D1642ABC0883009AB632 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC41D1652ABC0883009AB632 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC41D1682ABC0883009AB632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC41D1692ABC0883009AB632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC41D16B2ABC0883009AB632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Thrive Together/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.varshashashishekar.Thrive-Together";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC41D16C2ABC0883009AB632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Thrive Together/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.varshashashishekar.Thrive-Together";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC41D1512ABC0880009AB632 /* Build configuration list for PBXProject "Thrive Together" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC41D1682ABC0883009AB632 /* Debug */,
+				AC41D1692ABC0883009AB632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC41D16A2ABC0883009AB632 /* Build configuration list for PBXNativeTarget "Thrive Together" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC41D16B2ABC0883009AB632 /* Debug */,
+				AC41D16C2ABC0883009AB632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AC41D1732ACA9C6D009AB632 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC41D1742ACA9C6D009AB632 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC41D1732ACA9C6D009AB632 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AC41D14E2ABC0880009AB632 /* Project object */;
+}
